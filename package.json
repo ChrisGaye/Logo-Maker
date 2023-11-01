@@ -1,0 +1,37 @@
+{
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application that generates a SVG logo.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisGaye/Logo-Maker.git"
+  },
+  "keywords": [
+    "SVG",
+    "logo.",
+    "maker"
+  ],
+  "author": "ChrisGaye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisGaye/Logo-Maker/issues"
+  },
+  "homepage": "https://github.com/ChrisGaye/Logo-Maker#readme",
+  "dependencies": {
+    "inquirer": "9.2.11",
+    "jest": "^29.7.0" 
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.2",
+    "babel-preset-env": "7.23.2",
+    "babel-jest": "29.7.0"
+  }
+}
